@@ -8,6 +8,14 @@
 \description{
 This is a demo package for the "Building Tidy Tools" workshop at at rstudio::conf(2022L). It allows you to work with European football league data supplied by the engsoccerdata package (Curley 2016).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/ijlyttle/ussie}
+  \item Report bugs at \url{https://github.com/ijlyttle/ussie/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Ian J Lyttle \email{ian.lyttle@se.com} (\href{https://orcid.org/0000-0001-9962-4849}{ORCID})
 

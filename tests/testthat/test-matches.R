@@ -1,4 +1,19 @@
-test_that("multiplication works", {
-  expect_equal(2 * 2, 4)
-  expect_equal(3 * 3, 10)
+test_that("uss_make_matches() works", {
+
+  italy <- uss_make_matches(engsoccerdata::italy, "Italy")
+
+  # is this a tibble?
+  expect_true(tibble::is_tibble(italy))
+
+  # has the right names?
+  expect_named(
+    italy,
+    c("country", "tier", "season", "date", "home", "visitor", "goals_home",
+      "goals_visitor")
+  )
+
+  # is the country correct?
+  expect_identical(unique(italy$country), "Italy")
+
 })
+
