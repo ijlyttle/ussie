@@ -3,7 +3,7 @@ pkgdown: 2.0.5
 pkgdown_sha: ~
 articles:
   ussie: ussie.html
-last_built: 2022-07-12T13:29Z
+last_built: 2022-07-12T13:57Z
 urls:
   reference: https://ijlyttle.github.io/ussie/reference
   article: https://ijlyttle.github.io/ussie/articles
